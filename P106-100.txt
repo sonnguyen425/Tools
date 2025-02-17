@@ -1,0 +1,16 @@
+B1 : - Ko cắm VGA
+     - Mở máy vào BIOS main - Chỉnh ưu tiên iGPU
+     - Tải Ndivia driver 417.22 (google)
+     - Tải DDU ( Display driver untaill )
+B2 : - Tắt internet ( Quan trọng )
+     - Dùng DDU ( tải ở trên ) clear driver AMD + Ndivia
+     - Cài Ndivia driver 417.22 ( tải ở trên )
+     - Vào Run ( nhấn nút Window + R ) gõ regedit
+     - Vào đường dẫn : HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\
+                       {4d36e968-e325-11ce-bfc1-08002be10318}\0001
+     - Xóa file AdapterType, file EnableHybrid đổi giá trị 0 thành 1
+B3 : - Reset máy
+---------------------------------------------
+
+
+     
