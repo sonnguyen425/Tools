@@ -1,0 +1,8 @@
+#Go to website:
+irm https://massgrave.dev/get | iex
+
+#Command:
+iex (irm https://get.activated.win)
+or
+irm https://get.activated.win | iex
+
